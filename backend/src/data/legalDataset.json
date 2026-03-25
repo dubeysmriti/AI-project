@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "id": "C1",
+      "label": "Mock: Nova Contract Analytics v. Reed (2018)",
+      "year": 2018,
+      "jurisdiction": "US (Mock)",
+      "tags": ["contract", "breach", "materiality", "remedy"],
+      "summary": "A material-breach analysis that frames remedies around notice, cure, and the impact on the bargain.",
+      "importance": 8
+    },
+    {
+      "id": "C2",
+      "label": "Mock: Keller v. Harbor Supply (2015)",
+      "year": 2015,
+      "jurisdiction": "US (Mock)",
+      "tags": ["contract", "material breach", "good faith", "damages"],
+      "summary": "How courts infer materiality from performance gaps and surrounding commercial context.",
+      "importance": 7
+    },
+    {
+      "id": "C3",
+      "label": "Mock: Zenith Freight v. Wills (2013)",
+      "year": 2013,
+      "jurisdiction": "US (Mock)",
+      "tags": ["fraud", "misrepresentation", "reliance", "contract"],
+      "summary": "Reliance and inducement principles for claims tied to contractual negotiations.",
+      "importance": 7
+    },
+    {
+      "id": "C4",
+      "label": "Mock: Sterling Metals v. Dornoch (2011)",
+      "year": 2011,
+      "jurisdiction": "US (Mock)",
+      "tags": ["contract", "notice", "cure", "remedy mitigation"],
+      "summary": "Notice and cure timing as gating issues for remedy eligibility.",
+      "importance": 6
+    },
+    {
+      "id": "C5",
+      "label": "Mock: Union Steel v. Hart (2020)",
+      "year": 2020,
+      "jurisdiction": "US (Mock)",
+      "tags": ["tort", "negligence", "duty", "harm"],
+      "summary": "Duty and foreseeability in premises and conduct-based negligence theories.",
+      "importance": 9
+    },
+    {
+      "id": "C6",
+      "label": "Mock: Peterson v. Blue Lake (2017)",
+      "year": 2017,
+      "jurisdiction": "US (Mock)",
+      "tags": ["tort", "foreseeability", "negligence", "breach"],
+      "summary": "Breach evaluation through foreseeability and risk-reduction options.",
+      "importance": 8
+    },
+    {
+      "id": "C7",
+      "label": "Mock: Cityline Transit v. Ortega (2019)",
+      "year": 2019,
+      "jurisdiction": "US (Mock)",
+      "tags": ["tort", "proximate cause", "comparative fault", "negligence"],
+      "summary": "Proximate cause and allocation when multiple harms contribute.",
+      "importance": 8
+    },
+    {
+      "id": "C8",
+      "label": "Mock: Beacon Bank v. Sterling (2020)",
+      "year": 2020,
+      "jurisdiction": "US (Mock)",
+      "tags": ["property", "possession", "trespass", "notice"],
+      "summary": "Possession and notice principles for trespass-like interferences.",
+      "importance": 7
+    },
+    {
+      "id": "C9",
+      "label": "Mock: Forest & Finch v. Harrow (2018)",
+      "year": 2018,
+      "jurisdiction": "US (Mock)",
+      "tags": ["property", "boundary", "adverse possession", "trespass"],
+      "summary": "Boundary disputes resolved through occupation facts and statutory continuity.",
+      "importance": 7
+    },
+    {
+      "id": "C10",
+      "label": "Mock: BrandX Corp v. Halo Commerce (2014)",
+      "year": 2014,
+      "jurisdiction": "US (Mock)",
+      "tags": ["trademark", "likelihood of confusion", "consumer perception"],
+      "summary": "Multi-factor analysis emphasizing consumer confusion and channel overlap.",
+      "importance": 8
+    },
+    {
+      "id": "C11",
+      "label": "Mock: Larkin v. MarketBright (2012)",
+      "year": 2012,
+      "jurisdiction": "US (Mock)",
+      "tags": ["trademark", "secondary meaning", "strength", "confusion"],
+      "summary": "Distinctiveness and strength-of-mark evaluation as inputs to confusion.",
+      "importance": 7
+    },
+    {
+      "id": "C12",
+      "label": "Mock: Reedman IP Systems v. LumenWorks (2021)",
+      "year": 2021,
+      "jurisdiction": "US (Mock)",
+      "tags": ["copyright", "fair use", "transformative", "work"],
+      "summary": "Fair-use style analysis focused on transformative purpose and market impact.",
+      "importance": 9
+    },
+    {
+      "id": "C13",
+      "label": "Mock: Aurora Studios v. Pine Ridge (2016)",
+      "year": 2016,
+      "jurisdiction": "US (Mock)",
+      "tags": ["copyright", "substantial similarity", "derivative works"],
+      "summary": "Substantial-similarity framing and how courts interpret protectable expression.",
+      "importance": 8
+    },
+    {
+      "id": "C14",
+      "label": "Mock: Atlas Patent Group v. Lattice Devices (2017)",
+      "year": 2017,
+      "jurisdiction": "US (Mock)",
+      "tags": ["patent", "claims", "obviousness", "prior art"],
+      "summary": "Claims construction and obviousness evaluation with structured prior art mapping.",
+      "importance": 8
+    },
+    {
+      "id": "C15",
+      "label": "Mock: Miller v. Prospect News (2015)",
+      "year": 2015,
+      "jurisdiction": "US (Mock)",
+      "tags": ["defamation", "publication", "fault", "truth"],
+      "summary": "Fault standards and how courts separate opinion, rumor, and assertion.",
+      "importance": 7
+    },
+    {
+      "id": "C16",
+      "label": "Mock: Dovetail Employment Co. v. Marsh (2019)",
+      "year": 2019,
+      "jurisdiction": "US (Mock)",
+      "tags": ["employment", "retaliation", "protected activity", "causation"],
+      "summary": "Retaliation causation analysis with temporal proximity and pretext factors.",
+      "importance": 8
+    }
+  ],
+  "edges": [
+    {
+      "source": "C1",
+      "target": "C2",
+      "citation": "materiality & commercial context",
+      "proposition": "Materiality is inferred from performance gaps, effect on the bargain, and good-faith expectations.",
+      "importance": 8
+    },
+    {
+      "source": "C2",
+      "target": "C4",
+      "citation": "notice and cure gating issues",
+      "proposition": "Remedies often turn on whether notice/cure opportunities were provided and reasonably attempted.",
+      "importance": 7
+    },
+    {
+      "source": "C1",
+      "target": "C4",
+      "citation": "notice and cure (alternative route)",
+      "proposition": "Even where breach is shown, remedy eligibility can depend on notice and cure compliance.",
+      "importance": 5
+    },
+    {
+      "source": "C4",
+      "target": "C3",
+      "citation": "fraud/reliance interface",
+      "proposition": "When negotiation statements are disputed, reliance and inducement supply the causal narrative.",
+      "importance": 4
+    },
+    {
+      "source": "C3",
+      "target": "C2",
+      "citation": "good faith limitations",
+      "proposition": "Fraud-like inducement arguments must be reconciled with good-faith performance standards.",
+      "importance": 6
+    },
+    {
+      "source": "C5",
+      "target": "C6",
+      "citation": "foreseeability & breach",
+      "proposition": "Foreseeability and risk-reduction options guide whether conduct fell below the duty of care.",
+      "importance": 9
+    },
+    {
+      "source": "C6",
+      "target": "C7",
+      "citation": "proximate cause & allocation",
+      "proposition": "Proximate cause and comparative fault explain how multiple harms reduce or shift responsibility.",
+      "importance": 8
+    },
+    {
+      "source": "C5",
+      "target": "C7",
+      "citation": "direct causation shortcut",
+      "proposition": "In some settings, the record supports a direct causation inference without extended foreseeability analysis.",
+      "importance": 5
+    },
+    {
+      "source": "C7",
+      "target": "C6",
+      "citation": "feedback loop on breach",
+      "proposition": "Causation analysis can revisit breach when the risk was obvious enough to affect behavior choices.",
+      "importance": 3
+    },
+    {
+      "source": "C8",
+      "target": "C9",
+      "citation": "boundary + continuity facts",
+      "proposition": "Possession disputes are often resolved through occupation/continuity evidence and clear notice.",
+      "importance": 7
+    },
+    {
+      "source": "C9",
+      "target": "C8",
+      "citation": "trespass notice",
+      "proposition": "Boundary findings influence trespass-like claims, including notice and the intent inferred from occupation.",
+      "importance": 4
+    },
+    {
+      "source": "C10",
+      "target": "C11",
+      "citation": "strength and confusion inputs",
+      "proposition": "Strength of the mark and distinctiveness are central inputs that shape confusion likelihood.",
+      "importance": 8
+    },
+    {
+      "source": "C11",
+      "target": "C10",
+      "citation": "recursive factor calibration",
+      "proposition": "Factor calibration may revisit mark strength when marketplace channels overlap.",
+      "importance": 4
+    },
+    {
+      "source": "C12",
+      "target": "C13",
+      "citation": "fair-use vs protectable expression",
+      "proposition": "Courts compare transformative purpose against protectable expression and market substitution risks.",
+      "importance": 9
+    },
+    {
+      "source": "C13",
+      "target": "C12",
+      "citation": "substantial similarity informs fair use",
+      "proposition": "Similarity findings can affect the fair-use outcome by clarifying what was copied and why.",
+      "importance": 6
+    },
+    {
+      "source": "C14",
+      "target": "C13",
+      "citation": "prior art mapping methods",
+      "proposition": "Structured mapping of prior art to claim elements resembles expression analysis methods in copyright disputes.",
+      "importance": 2
+    },
+    {
+      "source": "C15",
+      "target": "C16",
+      "citation": "fault + causation framing across areas",
+      "proposition": "Fault standards and causation analogies can guide how courts treat pretext and harm-related proof.",
+      "importance": 2
+    },
+    {
+      "source": "C16",
+      "target": "C15",
+      "citation": "publication-like reasoning constraints",
+      "proposition": "Causation and fault analysis can adapt when the dispute involves assertions presented as fact.",
+      "importance": 3
+    },
+    {
+      "source": "C16",
+      "target": "C7",
+      "citation": "comparative fault analogies",
+      "proposition": "Allocation concepts can appear when evaluating competing explanations for harm.",
+      "importance": 3
+    }
+  ]
+}
+

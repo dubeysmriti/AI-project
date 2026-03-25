@@ -1,0 +1,19 @@
+{
+  "name": "ai-legal-case-reasoning-path",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "concurrently -n backend,frontend -c green,cyan \"npm run start --workspace backend\" \"npm run start --workspace frontend\"",
+    "dev": "concurrently -n backend,frontend -c green,cyan \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "build": "npm run build --workspace frontend",
+    "lint": "npm run lint --workspace frontend",
+    "typecheck": "npm run typecheck --workspace frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
+
